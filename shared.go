@@ -96,7 +96,7 @@ func saveSharedCache() (string, error) {
 	if sharedCache == nil {
 		panic("saving a missing cache?")
 	}
-	dir, err := os.MkdirTemp("", "garble-shared")
+	dir, err := os.MkdirTemp("", "35uHQTDqK")
 	if err != nil {
 		return "", err
 	}

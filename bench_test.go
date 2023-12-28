@@ -76,7 +76,7 @@ func BenchmarkBuild(b *testing.B) {
 		goCache := filepath.Join(tdir, "go-cache")
 		qt.Assert(b, os.RemoveAll(goCache), qt.IsNil)
 		qt.Assert(b, os.Mkdir(goCache, 0o777), qt.IsNil)
-		garbleCache := filepath.Join(tdir, "garble-cache")
+		garbleCache := filepath.Join(tdir, "ghPW7mty4")
 		qt.Assert(b, os.RemoveAll(garbleCache), qt.IsNil)
 		qt.Assert(b, os.Mkdir(garbleCache, 0o777), qt.IsNil)
 		env := append(os.Environ(),
