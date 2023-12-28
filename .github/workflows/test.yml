@@ -18,7 +18,7 @@ on:
 # and the majority of commits or PRs will do so.
 # Moreover, GitHub saves and restores caches via compressed archives over the
 # network, which means it can easily add one minute of overhead on its own for
-# just a few hundred megabytes worth of files.
+# just a few hundred megabytes worth of files. 
 
 name: Test
 jobs:
